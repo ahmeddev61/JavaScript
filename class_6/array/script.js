@@ -20,4 +20,8 @@ let top_10_std = stds.slice(1, 4);
 console.log(top_10_std);
 // changing array element
 stds[1] = "marwat";
+// to remove an element from everywhere
+// std.splice(stating index ,delete count, add element|replace element)
+stds.splice(2, 1);
+stds.splice(2, 0, "ahmed");
 console.log(stds);
