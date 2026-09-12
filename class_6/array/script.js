@@ -25,3 +25,6 @@ stds[1] = "marwat";
 stds.splice(2, 1);
 stds.splice(2, 0, "ahmed");
 console.log(stds);
+console.log(stds.includes("ahmed")); // return boolean : ture | False
+// index of : is used to return index number
+console.log(stds.indexOf("bilals"));
