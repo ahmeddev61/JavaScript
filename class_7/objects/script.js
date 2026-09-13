@@ -1,5 +1,5 @@
 // object is used to add random data in a effiecient way
-// used to store key value data
+// used to store key value pairs
 let std_details = {
   name: "ahmed",
   age: 22,
@@ -38,11 +38,11 @@ let course = {
       hod: "fayaz",
     },
     {
-      department_1: "allied health sciences",
+      department_2: "allied health sciences",
       hod: "daniyal",
     },
     {
-      department_1: "English",
+      department_3: "English",
       hod: "abdul musavir",
     },
   ],
@@ -54,7 +54,7 @@ console.log(course.course_duration);
 console.log((course.course_duration = "5 Month"));
 console.log(course.course_name[2]);
 console.log(course.instructor.instructor_name);
-console.log(course.department[1].department_1);
+console.log(course.department[1].department_2);
 console.log(course.department[1].hod);
 for (let i = 0; i < course.course_name.length; i++) {
   console.log(course.course_name[i]);
