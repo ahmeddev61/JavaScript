@@ -38,9 +38,11 @@ console.log(word1.toUpperCase()); // AHMED
 console.log(word1.toLowerCase()); // ahmed
 
 // trim() removes whitespace from the beginning and end
+// trim(): types: trim start(),trim end
 const namee = "   khan    ";
 
 console.log(namee.trim()); // khan
+
 let fname = prompt("Enter your name").trim();
 if ((fname = "abdul")) {
   console.log(true);
@@ -79,7 +81,7 @@ let msg = "java script";
 console.log(msg.indexOf("script"));
 // if text is not found it gives return -1
 console.log(msg.indexOf("print"));
-// last indexof finds the last occurance
+// lastindexof() finds the last occurance
 const text = "hello hello hello";
 console.log(text.indexOf("hello"));
 console.log(text.lastIndexOf("hello"));
